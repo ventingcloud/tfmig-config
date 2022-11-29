@@ -1,0 +1,5 @@
+tfe_hostname = "tfe-online.aws.venting.cloud"
+organization = "vc"
+tfe_token    = "tfe-token-here"
+github_token = "github-oath-token"
+workspace_count = 10
