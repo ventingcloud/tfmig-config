@@ -35,7 +35,7 @@ module "workspacer" {
   count = var.workspace_count
 
   organization   = var.organization
-  workspace_name = "module-workspacer-with-vcs-${count.index}"
+  workspace_name = "tfe-mig-vcs-${count.index}"
   workspace_desc = "Created by Terraform Workspacer module."
   workspace_tags = ["module-ci", "test", "vcs-driven"]
   force_delete   = true
