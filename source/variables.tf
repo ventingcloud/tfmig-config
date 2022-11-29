@@ -19,6 +19,6 @@ variable "workspace_count" {
 }
 
 variable "github_token" {
-    description = "A GitHub OAuth token for VCS Provider"
-    type = string  
+  description = "A GitHub OAuth token for VCS Provider"
+  type        = string
 }
